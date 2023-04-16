@@ -443,7 +443,7 @@ p {
 }
 .product-image-big {
     object-fit: contain;
-    max-height: 200px;
+    max-height: 300px;
 }
 .product-image-small {
     object-fit: contain;
