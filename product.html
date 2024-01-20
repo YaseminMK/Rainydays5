@@ -1,160 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles/global.css">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Product page</title>
-    </head>
-    <div>
-        <!-- NAVBAR -->
-        <div class="navbar-container">
-            <div class="image-container">
-                <a href="index.html">
-                    <img src="images/Branding/Logo.png" alt="Rainy days logo" class="logo">
-                </a>
-            </div>
-            <div class="flex-center input-wrapper">
-                <img src="images/icons/SearchIcon.png" alt="Search icon" class="icon">
-                <input class="input" type="text" id="myInput" name="Search" placeholder="Search...">
-            </div>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/global.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+</head>
+<body>
 
-            <div class="navbar-flex w200">
-                <img src="images/icons/UserIcon.png" alt="Login" class="navbar-icon">
-                <img src="images/icons/HeartIcon.png" alt="Liked itmes" class="navbar-icon">
-                <img src="images/icons/BagIcon.png" alt="Basket" class="navbar-icon">
-            </div>
-        </div>
-        <!-- <nav class="w100 overflow-hidden navbar-link-container">
-            <ul class="navbar-flex navbar-link-container">
-                <li><a href="about.html" class="navbar-link-text">ABOUT US</a></li>
-                <li><a href="contact.html" class="navbar-link-text">CONTACT</a></li>
-                <li><a href="shop.html" class="navbar-link-text">SHOP</a></li>
-            </ul>
-        </nav> -->
-
-        <!--MAIN-->
-        <!--HEADER-->
-        <a class="flex-center ml20" href="index.html">
-            <img src="images/icons/LeftArrowIcon.png" alt="arrow back to homepage" class="icon">
-            <p>HOMEPAGE</p>
+<!-- NAVBAR -->
+<div class="navbar-container">
+    <div class="image-container">
+        <a href="index.html">
+            <img src="images/Branding/Logo.png" alt="Rainy days logo" class="logo">
         </a>
+    </div>
+    <div class="flex-center input-wrapper">
+        <img src="images/icons/SearchIcon.png" alt="Search icon" class="icon">
+        <input class="input" type="text" id="myInput" name="Search" placeholder="Search...">
+    </div>
 
-        <div class="product-header-container">
-            <img src="images/products/Product1.png" alt="Small image of the jacket" class="product-image-small">
-            <div>
-                <img src="images/products/Product1.png" alt="Black outdoor jacket for women" class="product-image-big">
-                <div class="flex-center">
-                    <img src="images/icons/ArrowDown.png" alt="Arrow down to details" class="icon-small">
-                    <p class="secondary-text">SEE DETAILS</p>
-                </div>
-            </div>
+    <div class="navbar-flex w200">
+        <img src="images/icons/UserIcon.png" alt="Login" class="navbar-icon">
+        <img src="images/icons/HeartIcon.png" alt="Liked itmes" class="navbar-icon">
+        <img src="images/icons/BagIcon.png" alt="Basket" class="navbar-icon">
+    </div>
+</div>
+
+<!--MAIN-->
+<!--HEADER-->
+<a class="flex-center ml20" href="index.html">
+    <img src="images/icons/LeftArrowIcon.png" alt="arrow back to homepage" class="icon">
+    <p>HOMEPAGE</p>
+</a>
+
+<div class="product-header-container">
+    <img src="images/products/Product1.png" alt="Small image of the jacket" class="product-image-small">
+    <div>
+        <img src="images/products/Product1.png" alt="Black outdoor jacket for women" class="product-image-big">
+        <div class="flex-center">
+            <img src="images/icons/ArrowDown.png" alt="Arrow down to details" class="icon-small">
+            <p class="secondary-text">SEE DETAILS</p>
+        </div>
+    </div>
+</div>
+
+<!-- PRODUCT INFO -->
+<div class="product-info-container">
+    <div>
+        <p class="bold-text">Raindy Days W Jacket</p>
+        <p class="bold-text">PRICE 1499 NOK</p>
+        <div class="flex-center">
+            <p class="bold-text">COLOR</p>
+            <img src="images/products/Product1.png" alt="Small image of the jacket" class="product-image-extra-small">
         </div>
 
-        <!--- PRODUCT INFO -->
-        <div class="product-info-container">
-            <div>
-                <p class="bold-text">Raindy Days W Jacket</p>
-                <p class="bold-text">PRICE 1499 NOK</p>
-                <div class="flex-center">
-                    <p class="bold-text">COLOR</p>
-                    <img src="images/products/Product1.png" alt="Small image of the jacket" class="product-image-extra-small">
-                </div>
-
-                <p>SELECT SIZE</p>
-                <div>
-                    <div class="flex-center">
-                        <div class="box"><p>XS</p></div>
-                    </div>
-                    <div class="flex-center">
-                        <div class="box"><p>S</p></div>
-                    </div>
-                    <div class="flex-center">
-                        <div class="box"><p>M</p></div>
-                    </div>
-                    <div class="flex-center">
-                        <div class="box"><p>L</p></div>
-                    </div>
-                    <div class="flex-center">
-                        <div class="box"><p>XL</p></div>
-                    </div>
-                </div>
-                <a href="checkout.html">
-                    <button class="button-dark-small">Add to bag</button>
-                </a>
+        <p>SELECT SIZE</p>
+        <div>
+            <div class="flex-center">
+                <div class="box"><p>XS</p></div>
             </div>
-
-            <div class="text-container">
-                <p>ABOUT THE PRODUCT</p>
-                <p class="info-text">
-                    A breathable wind -and waterproof jacket for everyday use to more extreme hiking tours. It is a
-                    hardshell jacket witch will keep you dry in every weather condition. It is made up of 100 % recycled
-                    material and is one of our most sold jackets for women this year.
-                </p>
+            <div class="flex-center">
+                <div class="box"><p>S</p></div>
+            </div>
+            <div class="flex-center">
+                <div class="box"><p>M</p></div>
+            </div>
+            <div class="flex-center">
+                <div class="box"><p>L</p></div>
+            </div>
+            <div class="flex-center">
+                <div class="box"><p>XL</p></div>
             </div>
         </div>
+        <a href="checkout.html">
+            <button class="button-dark-small">Add to bag</button>
+        </a>
+    </div>
 
-        <!-- YOU MAY LIKE -->
-        <div class="home-bestseller-container">
-            <p class="home-bestseller-headertext">YOU MIGHT LIKE</p>
-            <div class="home-bestseller-wrapper">
-                <a href="product.html">
-                    <img src="images/products/Product2.png" alt="Blue womans jacket for outdoors" class="product-image">
-                    <p class="product-name">Rainy Days MOUTAIN W</p>
-                    <p class="product-price">1699 NOK</p>
+    <div class="text-container">
+        <p>ABOUT THE PRODUCT</p>
+        <p class="info-text">
+            A breathable wind -and waterproof jacket for everyday use to more extreme hiking tours. It is a
+            hardshell jacket which will keep you dry in every weather condition. It is made up of 100 % recycled
+            material and is one of our most sold jackets for women this year.
+        </p>
+    </div>
+</div>
+
+<!-- YOU MAY LIKE -->
+<div class="home-bestseller-container">
+    <p class="home-bestseller-headertext">YOU MIGHT LIKE</p>
+    <div class="home-bestseller-wrapper">
+        <a href="product.html">
+            <img src="images/products/Product2.png" alt="Blue womans jacket for outdoors" class="product-image">
+            <p class="product-name">Rainy Days MOUTAIN W</p>
+            <p class="product-price">1699 NOK</p>
+        </a>
+        <a href="product.html">
+            <img src="images/products/Product6.png" alt="Black light jacket for woman for running" class="product-image">
+            <p class="product-name">Rainy Days RUN W</p>
+            <p class="product-price">1399 NOK</p>
+        </a>
+        <a href="product.html">
+            <img src="images/products/Product5.png" alt="Pink outdoor jacket for woman" class="product-image">
+            <p class="product-name">Rainy Days ATLAS W</p>
+            <p class="product-price">2599 NOK</p>
+        </a>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer-container">
+    <div class="footer-image-container">
+        <a href="index.html">
+            <img src="images/Branding/Logo.png" alt="Rainy days logo" class="logo-big">
+        </a>
+    </div>
+    <div class="footer-nav-container">
+        <div>
+            <p class="footer-nav-main-text">SERVICE</p>
+            <a href="shop.html">
+                <p class="footer-nav-sub-text">Products</p>
+            </a>
+            <a href="contact.html">
+                <p class="footer-nav-sub-text">Contact Us</p>
+            </a>
+        </div>
+        <div>
+            <p class="footer-nav-main-text">SUPPORT</p>
+            <a href="about.html">
+                <p class="footer-nav-sub-text">ABOUT RAINY DAYS</p>
+            </a>
+            <a href="#">
+                <p class="footer-nav-sub-text">Privacy Policy & Terms</p>
+            </a>
+        </div>
+        <div>
+            <p class="footer-nav-main-text">FOLLOW US ON</p>
+            <div class="flex-center">
+                <a href="#l">
+                    <img src="images/icons/Facebook.png" alt="icon for Facebook" class="icon">
                 </a>
-                <a href="product.html">
-                    <img src="images/products/Product6.png" alt="Black light jacket for woman for running"class="product-image">
-                    <p class="product-name">Rainy Days RUN W</p>
-                    <p class="product-price">1399 NOK</p>
-                </a>
-                <a href="product.html">
-                    <img src="images/products/Product5.png" alt="Pink outdoor jacket for woman" class="product-image">
-                    <p class="product-name">Rainy Days ATLAS W</p>
-                    <p class="product-price">2599 NOK</p>
+                <a href="#l">
+                    <img src="images/icons/Instagram.png" alt="icon for Instagram" class="icon">
                 </a>
             </div>
         </div>
+    </div>
+</div>
 
-        <!-- FOOTER -->
-        <div class="footer-container">
-            <div class="footer-image-container">
-                <a href="index.html">
-                    <img src="images/Branding/Logo.png" alt="Rainy days logo" class="logo-big">
-                </a>
-            </div>
-            <div class="footer-nav-container">
-                <div>
-                    <p class="footer-nav-main-text">SERVICE</p>
-                    <a href="shop.html">
-                        <p class="footer-nav-sub-text">Products</p>
-                    </a>
-                    <a href="contact.html">
-                        <p class="footer-nav-sub-text">Contact Us</p>
-                    </a>
-                </div>
-                <div>
-                    <p class="footer-nav-main-text">SUPPORT</p>
-                    <a href="about.html">
-                        <p class="footer-nav-sub-text">ABOUT RAINY DAYS</p>
-                    </a>
-                    <a href="#">
-                        <p class="footer-nav-sub-text">Privacy Policy & Terms</p>
-                    </a>
-                </div>
-                <div>
-                    <p class="footer-nav-main-text">FOLLOW US ON</p>
-                    <div class="flex-center">
-                        <a href="#l">
-                            <img src="images/icons/Facebook.png" alt="icon for Facebook" class="icon">
-                        </a>
-                        <a href="#l">
-                            <img src="images/icons/Instagram.png" alt="icon for Instagram" class="icon">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+<script>
+    document.addEventListener('DOMContentLoaded', async function () {
+        const isHtmlStructureCorrect = validateHtmlStructure();
+
+        if (isHtmlStructureCorrect) {
+            fetchProducts();
+        } else {
+            console.error('HTML structure is not correct. Please check your HTML code.');
+        }
+
+        async function fetchProducts() {
+            try {
+                const productId = getProductIdFromQueryString();
+                const productResponse = await fetch(`https://api.noroff.dev/api/v1/rainydays/products/${productId}`);
+                const productData = await productResponse.json();
+
+                updateProductDetails(productData);
+            } catch (error) {
+                console.error('Error fetching product:', error);
+            }
+        }
+
+        function updateProductDetails(productData) {
+            const seeDetailsElement = document.querySelector('.secondary-text');
+            const productNameElement = document.querySelector('.bold-text.product-name');
+            const priceElement = document.querySelector('.bold-text.product-price');
+            const sizeBoxes = document.querySelectorAll('.box');
+            const productImageElement = document.querySelector('.product-image-big');
+            const productInfoTextElement = document.querySelector('.info-text');
+
+            seeDetailsElement.textContent = 'SEE DETAILS';
+
+            const priceValue = productData.price;
+            priceElement.textContent = `PRICE ${priceValue} NOK`;
+
+            const sizes = productData.sizes;
+            sizeBoxes.forEach((box, index) => {
+                box.querySelector('p').textContent = sizes[index];
+            });
+
+            productImageElement.src = productData.image;
+            productImageElement.alt = productData.name;
+            productNameElement.textContent = productData.name;
+            productInfoTextElement.textContent = productData.description;
+        }
+
+        // Function to validate the HTML structure
+        function validateHtmlStructure() {
+            const requiredSelectors = [
+                '.secondary-text',
+                '.bold-text.product-name',
+                '.bold-text.product-price',
+                '.box',
+                '.product-image-big',
+                '.info-text',
+            ];
+
+            return requiredSelectors.every(selector => document.querySelector(selector) !== null);
+        }
+
+        function getProductIdFromQueryString() {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            return urlParams.get('id');
+        }
+    });
+</script>
+
+</body>
 </html>

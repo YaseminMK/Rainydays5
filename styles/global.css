@@ -642,38 +642,3 @@ p {
         font-size: 18px;
     }
 }
-
-
-
-
-
-.ticket-button {
-    display: flex;   
-    width: 109.46px;
-    height: 37px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 15px 42px 14px;
-    position: relative;
-    background-color: #fdfdfd;
-    border-radius: 30px;
-    border: 1px solid;
-    border-color: var(--primaryblack);
-
-    all: unset;
-    box-sizing: border-box;
-    display: flex;
-    width: 107.45px;
-    height: 37px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 15px 42px 14px;
-    position: relative;
-    background-color: #fdfdfd;
-    border-radius: 30px;
-    border: 1px solid;
-    border-color: var(--primaryblack);
-  }
-  
