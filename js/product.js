@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         productInfoTextElement.textContent = productData.description;
     }
 
-    // Function to validate the HTML structure
+   
     function validateHtmlStructure() {
         const requiredSelectors = [
             '.secondary-text',

@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
         productName.classList.add('product-name');
 
         const productPrice = document.createElement('p');
-        productPrice.textContent = `${product.productPrice} NOK`; // Assuming price is in NOK
+        productPrice.textContent = `${product.productPrice} NOK`; 
         productPrice.classList.add('product-price');
 
         productContainer.appendChild(productImage);
